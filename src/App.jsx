@@ -18,7 +18,7 @@ function App() {
          
           <form action="    ">
             <div >
-              <input type="text" value={value} className=" rounded-md py-6 px-4  text-pink-300 font-bold text-lg bg-pink-100 w-[90%] my-6 mx-4"  />
+              <input type="text" value={value}   placeholder="0" className=" rounded-md py-6 px-4 outline-pink-200  text-pink-300 font-bold text-lg bg-pink-100 w-[90%] my-6 mx-4"  />
             </div>
             <div className="">
               <input onClick={e=> setValue(' ')} className=" input-button" type="button" value="AC" />
